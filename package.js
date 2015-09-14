@@ -7,6 +7,6 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.1.0.3');
-  api.use(['coffeescript', 'jquery', 'underscore', 'iron:router']);
+  api.use(['coffeescript', 'jquery', 'underscore', 'iron:router@1.0.9']);
   api.addFiles('meteor-iron-router-autoscroll.coffee');
 });
